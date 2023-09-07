@@ -1,19 +1,7 @@
 # Important!!
 
-The moralis integration has been removed. Please use the [the graph](https://github.com/PatrickAlphaC/nextjs-nft-marketplace-thegraph-fcc) integration instead. 
-
 # NextJS Smartcontract Lottery (Raffle) FCC
 
-This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
-
-*[⌨️ (16:34:07) Lesson 10: NextJS Smart Contract Lottery (Full Stack / Front End)](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=59647s)*
-
-[Full Repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
-
-![App](img/readme-app.png)
-
-[Example App here!](https://fancy-dream-3458.on.fleek.co/)
-[Example App on IPFS here!](ipfs://Qme4KacFx21y6pYuTC6veAU2usryXB3fNWqLkX3a2hMvDe)
 
 Built with ❤️ using:
 NextJS
@@ -39,9 +27,6 @@ IPFS
 - [Linting](#linting)
 - [Thank you!](#thank-you)
 
-This project is a part of the Hardhat FreeCodeCamp video.
-
-Video coming soon...
 
 # Getting Started
 
@@ -56,58 +41,12 @@ Video coming soon...
   - You'll know you've installed yarn right if you can run:
     - `yarn --version` and get an output like: `x.x.x`
     - You might need to [install it with `npm`](https://classic.yarnpkg.com/lang/en/docs/install/) or `corepack`
+and you cloned the javascript version, just run:
 
-## Quickstart
-
-```
-git clone https://github.com/PatrickAlphaC/nextjs-smartcontract-lottery-fcc
-cd nextjs-smartcontract-lottery-fcc
-yarn
-yarn dev
-```
-
-## Typescript
-
-If you want to get to typescript and you cloned the javascript version, just run:
-
-```
-git checkout typescript
-```
-
-### Optional Gitpod
-
-If you can't or don't want to run and install locally, you can work with this repo in Gitpod. If you do this, you can skip the `clone this repo` part.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/PatrickAlphaC/nextjs-smartcontract-lottery-fcc)
-
-## Formatting in VSCode
-
-To have VSCode extension prettier auto-format `.jsx` and `.tsx`, add the following to your settings.json file:
-
-```
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
-```
 
 # Usage
 
 1. Run your local blockchain with the lottery code
-
-> In a different terminal / command line
-
-```
-git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
-cd hardhat-fund-me-fcc
-yarn 
-yarn hardhat node
-```
-
-> You can read more about how to use that repo from its [README.md](https://github.com/PatrickAlphaC/hardhat-fund-me-fcc/blob/main/README.md)
-
 
 2. Add hardhat network to your metamask/wallet
 
@@ -133,12 +72,6 @@ yarn dev
 
 Head over to your [localhost](http://localhost:3000) and play with the lottery!
 
-
-## Testing
-
-I didn't write any front end tests 😢
-
-If you'd like to create some tests for this repo, please make a PR!
 
 # Deploying to IPFS
 
@@ -176,21 +109,4 @@ yarn next export
 You can also have [Fleek](https://fleek.co/) auto-deploy your website if you connect your github. Connect to fleek and follow along the docs there. You'll get an IPFS hash and a "regular" URL for your site. 
 
 
-# Linting
-
-To check linting / code formatting:
-```
-yarn lint
-```
-
-
 # Thank you!
-
-If you appreciated this, feel free to follow me or donate!
-
-ETH/Polygon/Avalanche/etc Address: 0x9680201d9c93d65a3603d2088d125e955c73BD65
-
-[![Patrick Collins Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PatrickAlphaC)
-[![Patrick Collins YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
-[![Patrick Collins Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patrickalphac/)
-[![Patrick Collins Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@patrick.collins_58673/)
